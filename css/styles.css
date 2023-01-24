@@ -504,12 +504,10 @@ font-family: 'Raleway';
 }
 .soc-all{
     display: flex;
-    flex-wrap: wrap;
-        justify-content: flex-start;
-    width: 208px;
-        height: 80px;
-        margin-left: 540px;
-       
+    
+}
+.logo-rec{
+    margin-right:120px ;
 }
 
 
