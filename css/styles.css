@@ -305,17 +305,8 @@ padding-bottom: 120px;
         
 }
 .soc-med{
-    margin-top: 8px;
 display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 24px;
-border: 0;
-    width: 232px;
-    height: 40px;
-    margin-top: 21.5px;
+ gap: 24px;
 }
 .svg-soc{
     height: 16px;
@@ -365,7 +356,7 @@ border: 0;
   
             line-height: 1.5;        
             color: #434455;
-            margin-bottom: 21.5px;
+            margin-bottom: 8px;
       
 }
 .names-prof{
@@ -401,10 +392,9 @@ display: flex;
         
 }
 .cust-logo{
-    display: block;
         width: 104px;
         height: 56px;
-        fill: #8E8F99;
+        fill: currentColor;
 
 
 }
@@ -420,10 +410,7 @@ display: flex;
 }
  .li-cust:hover ,
  .li-cust:focus{
-    box-sizing: border-box;
-        border: 1px solid #404BBF;
-        border-radius: 4px;
-        fill: #404BBF;
+        color: #404BBF;
 
 }
 
@@ -433,10 +420,7 @@ display: flex;
 
 
 
-.cust-logo:hover ,
-.cust-logo:focus{
-    fill: #404BBF;
-}
+
      
 
 
@@ -446,6 +430,7 @@ display: flex;
         line-height: 1.5;
 
         letter-spacing: 0.02em;
+        margin-bottom: 16px;
     
         color: #FFFFFF;
 }
@@ -513,16 +498,12 @@ font-family: 'Raleway';
 
 .container-soc-foot{
 
-        margin: 8px 0 0 0;
+        
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
+     
         gap: 24px;
-        border: 0;
-        width: 232px;
-        height: 40px;
+       
+        
 }
 .soc-all{
     display: flex;
@@ -545,6 +526,7 @@ font-family: 'Raleway';
         height: 40px;
     background: rgba(255, 255, 255, 0.1);
 border-radius: 100%;
+display: flex;
 
 }
 .footer-soc:hover ,
