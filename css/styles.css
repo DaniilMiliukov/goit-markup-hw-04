@@ -159,7 +159,7 @@ text-align: center;
         text-align: center;
         padding: 188px 0;
         height: 600px;
-        max-width: 14440px;
+        max-width: 1440px;
         background-image:
         linear-gradient(
             to right,
@@ -170,6 +170,7 @@ text-align: center;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        margin: 0 auto;
       
        
 }
@@ -193,11 +194,14 @@ padding: 120px 0;
 
     height: 112px;
     background-color:#F4F4FD;
-    padding: 0;
-    border: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px;
+margin-bottom: 8px;
 }
 .svg-pic{
-margin: 24px 102px;
+
 height: 64px;
 width: 64px;
 
@@ -311,22 +315,29 @@ display: flex;
 border: 0;
     width: 232px;
     height: 40px;
+    margin-top: 21.5px;
 }
 .svg-soc{
     height: 16px;
         width: 16px;
-        margin: 12px;
+
 
         
 }
-.soc-back{
-    width: 40px;
+
+
+.link-team{
+   width: 40px;
     height: 40px;
     background-color: #4D5AE5;
-    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
-.soc-med .soc-back:hover ,
-.soc-med .soc-back:focus{
+
+.link-team:hover ,
+.link-team:focus{
     background-color: #404BBF;
 }
 
@@ -354,6 +365,7 @@ border: 0;
   
             line-height: 1.5;        
             color: #434455;
+            margin-bottom: 21.5px;
       
 }
 .names-prof{
@@ -389,19 +401,22 @@ display: flex;
         
 }
 .cust-logo{
-    width: 104px;
-    height: 56px;
-margin: 16px 32px;
-fill: #8e8f99;
+    display: block;
+        width: 104px;
+        height: 56px;
+        fill: #8E8F99;
+
+
 }
 .li-cust{
-    box-sizing: border-box;
-    
-        border: 1px solid #8E8F99;
+        border: 1px solid currentColor;
         border-radius: 4px;
-        display: block;
-        Width:168px;
-        Height:88px;
+        display: flex;
+        color: #8E8F99;
+        width:168px;
+        height:88px;
+        justify-content: center;
+        align-items: center;
 }
  .li-cust:hover ,
  .li-cust:focus{
@@ -411,6 +426,13 @@ fill: #8e8f99;
         fill: #404BBF;
 
 }
+
+
+
+
+
+
+
 .cust-logo:hover ,
 .cust-logo:focus{
     fill: #404BBF;
@@ -510,7 +532,11 @@ font-family: 'Raleway';
     margin-right:120px ;
 }
 
-
+.svg-soc-foot{
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+}
 
 
 
